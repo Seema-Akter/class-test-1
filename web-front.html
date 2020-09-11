@@ -1,0 +1,1064 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body{
+			margin: 0;
+			padding: 0;
+			background: #fff;
+			background-position: center center;
+			font-family: arial, sans-sarif;
+		}
+		.ALL{
+			width: 70%;
+			margin: auto;
+		}
+		ul{
+			list-style: none;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+		}
+
+
+
+		/*header area style start here*/
+
+
+		.header-top{
+			background-color: #683091;
+			display: flex;
+			justify-content: space-between;
+			/*position: relative;*/
+		}
+		.header-top a{
+			color: #fff;
+			width: 150px;
+			padding: 5px 5px 8px 0;
+			font-size: 15px;
+			/*position: absolute;
+			top: 0;
+			left: 20px;*/
+		}
+		.logo-area{
+			width: 180px;
+		}
+		.logo-area img{
+			width: 25px;
+
+		}
+		.header-inpit-area{
+			margin-top: 10px;
+			
+		}
+		.header-inpit-area{
+			margin-top: 10px;
+		}
+		.header-inpit-area .text{
+			width: 90px;
+			font-size: 10px;
+			border-radius: 12%;
+		}
+		.sub{
+			font-size: 12px;
+			font-family: kalpurushregular !important;
+			font-weight: bold;
+			border-radius: 12%;
+			padding: 4px 8px;
+			background: linear-gradient(to bottom, #4ba614, #008c00);
+			color: #fff;
+			border: 1px solid #456c2e;
+		}
+		.ing{
+			font-size: 12px;
+			border-radius: 5%;
+			padding: 5px 2px;
+			font-family: kalpurushregular !important;
+			color: #444;
+			text-shadow: 0 1px rgba(255, 255, 255, .75);
+			font-weight: bold;
+			background-color: #ccc;
+			border: 1px solid #aaa;
+		}
+		.header-middle img{
+
+			margin-bottom: 0;
+		}
+		.header-middle{
+
+			margin-bottom: 0;
+		}
+
+
+		/*nav style start here*/
+
+
+
+		.menu-img{
+				height: 33px;
+				width: 30px;
+				margin-top: 10px;
+				margin-bottom: 0;
+				padding: 4px;
+				border-bottom: 1px dotted #b2bec3;
+				border-right: 1px dotted #b2bec3;
+				background-color: #FAFAFA;
+		}
+		nav{
+			display: flex;
+			/*box-sizing: border-box;*/
+		}
+		nav ul{
+			display: flex;
+			margin: 10px 0 0 0;
+		}
+		nav ul li{
+			padding: 10px;
+			border-right: 1px dotted #b2bec3;
+			border-bottom: 1px dotted #b2bec3;
+			border-left: 1px dotted #b2bec3;
+			background-color: #FAFAFA;
+
+		}
+		nav ul li a{
+			/*font-size: 10px;*/
+		}
+		.blank{
+			padding: 15px !important;
+		}
+		.header-bottom li{
+			list-style-type: none;
+			border-right: 1px dotted #b2bec3;
+			display: inline-block;
+
+		}
+		.header-bottom .menu-2{
+			padding: 15px;
+			display: inline-block;
+			margin-top: 0 !important;
+			color: #333333;
+			
+		}
+		.m1{
+			color: #FF6600;
+		}
+		.m2{
+			color: #C40A2A;
+		}
+		.m3{
+			color: #84154D;
+		}
+		.m4{
+			color: #098346;
+		}
+		.m5{
+			color: #1399BE;
+		}
+		.m6{
+			color: #A468DE;
+		}
+		.m7{
+			color: #333333;
+		}
+		.m8{
+			color: #333333;
+		}
+
+
+		/*middle area start here*/
+
+
+
+
+
+
+		.middle-area:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.main-area{
+			width: 78%;
+			float: left;
+			margin-right: 2%;
+		}
+		aside{
+			/*display: flex;*/
+			width: 20%;
+			float: right;
+		}
+		#mda{
+			width: 736px;
+		}
+		.middle-notice{
+			background-color: #eee;
+			width: 736px;
+			border: 1px solid #cfcfcf;
+			background-image: url(assets/images/bg-nitice.png);
+			background-repeat: no-repeat;
+			float: left;
+			margin-bottom: 20px;
+		}
+		.middle-notice button{
+			float: right;
+			margin: 20px;
+			background: linear-gradient(to bottom, #6F6F6F, #9B9B9B);
+			border: 1px solid #9B9B9B;
+			
+		}
+		.middle-notice: after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.middle-notice h2{
+			width: 200px;
+			margin: 5px 100px;
+		}
+		.middle-notice ul{
+			margin: 20px 100px;
+			list-style-image: url(assets/images/li-img.png);
+
+		}
+		.middle-notice ul li a{
+			font-size: 12px;
+			color: #333;
+			text-decoration: underline 1px dotted #333;
+
+		}
+
+
+
+		.se-pa1{
+			width: 48%;
+			margin-right: 4px;
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+		}
+		.se-pa1 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px;
+		}
+		ul li a{
+			font-size: 12px;
+			color: #333;
+		}
+		.se-pa2 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px;
+		}
+		.se-pa1 h4{
+			margin: 25px;
+		}
+		.se-pa2 h4{
+			margin: 25px;
+		}
+		.se-pa2{
+			background: url(assets/images/);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;		
+		}
+		.section2:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+
+
+
+
+
+
+		.se-pa3{
+			width: 48%;
+			background-image: url(assets/images/reg.jpg);
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 10px 0 11px 0;
+		}
+		.se-pa3 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa4 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa3 h4{
+			margin: 25px;
+		}
+		.se-pa4 h4{
+			margin: 25px;
+		}
+		.se-pa4 {
+			background: url(assets/images/form.jpg);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 100px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;		
+		}
+		.section3{
+			margin-top: 20px;
+		}
+		.section3:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+
+
+
+
+
+		
+		
+		.se-pa5 h4{
+			margin: 25px;
+		}
+		.se-pa5{
+			width: 48%;
+			background-image: url(assets/images/reg.jpg);
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 10px 0 11px 0;
+		}
+		.se-pa5 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa6 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa6 h4{
+			margin: 25px;
+		}
+		.se-pa6 {
+			background: url(assets/images/result.png);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 100px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;		
+		}
+		.section4{
+			margin-top: 20px;
+		}
+		.section4:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+
+
+
+		
+		
+		.se-pa7 h4{
+			margin: 25px;
+		}
+		.se-pa7{
+			width: 48%;
+			background-image: url(assets/images/APA.png);
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 10px 0 11px 0;
+		}
+		.se-pa7 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa8 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa8 h4{
+			margin: 25px;
+		}
+		.se-pa8 {
+			background: url(assets/images/ans.jpg);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 100px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;		
+		}
+		.section5{
+			margin-top: 20px;
+		}
+		.section5:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		
+		
+		.se-pa9 h4{
+			margin: 25px;
+		}
+		.se-pa9{
+			width: 48%;
+			background-image: url(assets/images/others2.jpg);
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 10px 0 11px 0;
+		}
+		.se-pa9 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa10 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa10 h4{
+			margin: 25px;
+		}
+		.se-pa10 {
+			background: url(assets/images/10.png);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 100px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;		
+		}
+		.section6{
+			margin-top: 20px;
+		}
+		.section6:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		
+		
+		.se-pa11 h4{
+			margin: 25px;
+		}
+		.se-pa11{
+			width: 48%;
+			background-image: url(assets/images/NIS.png);
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 10px 0 11px 0;
+		}
+		.se-pa11 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa12 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa12 h4{
+			margin: 25px;
+		}
+		.se-pa12 {
+			background: url(assets/images/INNOVATION.png);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 100px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;		
+		}
+		.section7{
+			margin-top: 20px;
+		}
+		.section7:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		
+		
+		.se-pa13 h4{
+			margin: 25px;
+		}
+		.se-pa13{
+			width: 48%;
+			background-image: url(assets/images/info.png);
+			float: left;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 20px 0 20px 0;
+		}
+		.se-pa13 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa14 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+		.se-pa14 h4{
+			margin: 25px;
+		}
+		.se-pa14 {
+			background: url(assets/images/Test.png);
+			width: 48%;
+			float: right;
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 100px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;		
+		}
+		.section8{
+			margin-top: 20px;
+		}
+		.section8:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+
+
+
+
+
+		
+		.se-pa15 h4{
+			margin: 25px;
+		}
+		.se-pa15{
+			width: 48%;
+			background-image: url(assets/images/CC-Logo-8.png);
+			/*float: left;*/
+			border: 1px solid #cfcfcf;
+			background-color: #F5F5F5;
+			background-size: 120px 70px;
+			background-repeat: no-repeat;
+			background-position: left 10px  center;
+			margin-right: 4px;
+			padding: 10px 0 11px 0;
+		}
+		.se-pa15 ul{
+			list-style-image: url(assets/images/li-img.png);
+			margin: 25px 0 25px 150px;
+		}
+
+		.section9{
+			margin-top: 20px;
+		}
+
+
+
+
+		/*aside start hare*/
+
+
+
+		aside h2{
+			background-color: #609513;
+			color: #fff;
+			font-size: 12px;
+			font-weight: normal;
+			padding: 12px 4px;
+		}
+		aside img{
+			width: 100px;
+			margin: auto;
+			display: block;
+		}
+		aside p{
+			color: #333;
+			font-size: 12px;
+			/*padding: 12px 4px;*/
+		}
+		.side-bar a{
+			display: block;
+			text-align: right;
+			font-size: 14px;
+			text-decoration: underline;
+			color: #333;
+		}
+		.part6 ul{
+			list-style-image: url(assets/images/li-img.png);
+			font-size: 12px;
+			padding-left: 25px;
+			color: #333;
+		}
+		.part7 ul{
+			list-style-image: url(assets/images/li-img.png);
+			font-size: 12px;
+			padding-left: 15px;
+		}
+		.part7 ul li{
+			padding: 6px;
+		}
+		.part7 ul a{
+			font-size: 12px;
+			color: #333;
+			text-align: left !important;
+		}
+		.part8 img{
+			width:100%;
+		}
+		.part9 img{
+			width:100%;
+		}
+
+
+
+
+
+
+
+		/*footer area style starte hare*/
+
+
+
+
+
+		footer{
+			background-image: url(assets/images/footer_top_bg.png);
+			width: 100%;
+			clear: both;
+		}
+
+
+
+		.footer-area{
+			background-image: url(assets/images/footer2.png);
+		}
+	</style>
+</head>
+<body>
+	<div class="ALL">
+		<div class="header-area">
+			<div class="header-top">
+				<div class="logo-area">
+					<img src="assets/images/header-logo1.png" alt="">
+					<a href="#">বাংলাদেশ জাতীয় তথ্য বাতায়ন</a>
+				</div>
+				<div class="header-inpit-area">
+					<input class="text" type="text">
+					<input class="sub" type="submit" value="Search">
+					<button class="ing">English</button>
+				</div>
+			</div>
+			<div class="header-middle">
+				<img src="assets/images/header-img.jpg" alt="">
+			</div>
+			<div class="header-bottom">
+				<nav>
+					<img class="menu-img" src="assets/images/menu-img.png" alt="!">
+					<ul>
+						<li><a class="m1" href="#">আমাদের সম্পর্কে</a></li>
+						<li><a class="m2" href="#">পাঠ্যক্রম</a></li>
+						<li><a class="m3" href="#">শিক্ষকদের তথ্য</a></li>
+						<li><a class="m4" href="#">প্রকাশনা</a></li>
+						<li><a class="m5" href="#">রেজাল্ট</a></li>
+						<li><a class="m6" href="#">ফটোগ্যালারী</a></li>
+						<li><a class="m7" href="#">ডাউনলোড</a></li>
+						<li><a class="m8" href="#">NTVQF ওয়েবসাইট</a></li>
+						<li><a class="blank" href="#"></a></li>
+					</ul>
+				</nav>
+				<li><a class="menu-2" href="#">তথ্য প্রাপ্তির জন্য যোগাযোগ</a></li>
+			</div>
+		</div>
+
+
+
+		<!-- middle-area start here -->
+
+
+		<div class="middle-area">
+			<div class="main-area">
+				<div class="mid-img1">
+					<img id="mda" class="img1" src="assets/images/mid-img1.jpeg" alt="">
+					<img id="mda" class="img2" src="assets/images/scroll1.png" alt="">
+					<img id="mda" class="img2" src="assets/images/scroll2.png" alt="">
+				</div>
+				<div class="middle-notice">
+					<img src="" alt="">
+					<h2>নোটিশ বোর্ড</h2>
+					<ul>
+						<li><a href="#" alt="">'সংসদ বাংলাদেশ টেলিভিশন' এ ডিপ্লমা-ইন-ইঞ্জিনিয়ার, এসএসসি (ভোক.) ও দাখিল (ভোক.) এর...</a></li>
+						<li><a href="#" alt="">মোঃ রফিকুল ইসলাম, ডাটা এন্ট্রি অপারেটর এর অনাপত্তি সনদ</a></li>
+						<li><a href="#" alt="">Sangshad TV class routine SSC Vocationa & Diploma Engineering</a></li>
+						<li><a href="#" alt="">সরকারি ডিপ্লোমা প্রতিষ্ঠানে ভর্তির নোটিশ</a></li>
+						<li><a href="#" alt="">এইচএসসি (বিএম) শিক্ষাক্রমের একাডেমিক স্বীকৃতি প্রদান প্রসঙ্গে</a></li>
+					</ul>
+					<button>সকল</button>
+				</div>
+
+
+
+
+				<div class="section2">
+					<div id="se-all" class="se-pa1">
+						<h4>বিজ্ঞপ্তি</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa2">
+						<h4>অনলাইনে ভর্তি (সেশনঃ ২০২০-২০২১)</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+
+				<div class="section3">
+					<div id="se-all" class="se-pa3">
+						<h4>রেজিষ্ট্রেশন</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa4">
+						<h4>ফর্মফিলআপ</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>
+
+				
+				<div class="section4">
+					<div id="se-all" class="se-pa5">
+						<h4>অনলাইন তথ্য প্রেরণ/গ্রহণ</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa6">
+						<h4>চলমান ফলাফল</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>
+
+				
+				<div class="section5">
+					<div id="se-all" class="se-pa7">
+						<h4>বার্ষিক কর্মসম্পাদন চুক্তি</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa8">
+						<h4>উত্তরপত্র পুণঃনিরীক্ষণ/স্থগিত ফলাফল</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>	
+				<div class="section6">
+					<div id="se-all" class="se-pa9">
+						<h4>অন্যান্য সেবা ও পরিসংখ্যান</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa10">
+						<h4>অভিযোগ প্রতিকার ব্যবস্থাপনা</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>
+
+				
+				<div class="section7">
+					<div id="se-all" class="se-pa11">
+						<h4>শুদ্ধাচার</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa12">
+						<h4>উদ্ভাবনী কার্যক্রম</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>
+
+				
+				<div class="section8">
+					<div id="se-id" class="se-pa13">
+						<h4>তথ্য অধিকার</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+					<div id="se-all" class="se-pa14">
+						<h4>বিশেষ চাহিদা সম্পন্ন শিক্ষার্থীদের সম্পৃক্তকরণ</h4>
+						<ul>
+							<li><a href="#">সরকারি ও বেসরকারি সকল ডিপ্লোমা ভর্তি</a></li>
+							<li><a href="#">প্রতিষ্ঠানের তালিকা</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">ভর্তির নীতিমালা</a></li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="section9">
+					<div id="se-all" class="se-pa15">
+						<h4>সেবা প্রদান প্রতিশ্রুতি (সিটিজেন্‌স চার্টার)</h4>
+						<ul>
+							<li><a href="#">ডিপ্লোমা পর্যায়</a></li>
+							<li><a href="#">এইচ এস সি পর্যায়</a></li>
+							<li><a href="#">এস,এস,সি পর্যায়</a></li>
+							<li><a href="#">সল্প মেয়াদী ও অন্যান্য</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+			<!-- aside area start here -->
+
+
+
+
+
+
+			<aside>
+				<div class="side-bar">
+					<div class="part1">
+						<h2>মাননীয় মন্ত্রী</h2>
+						<img src="assets/images/dipumoni.jpg" alt="">
+						<p>ডাঃ দীপু মনি, এম.পি.</p>
+						&nbsp;
+						&nbsp;
+						<p>ডাঃ দীপু মনি</p>
+						<a href="#">বিস্তারিত</a>
+					</div>
+					<div class="part2">
+						<h2>মাননীয় উপমন্ত্রী</h2>
+						<img src="assets/images/mohi.jpg" alt="">
+						<p>মহিবুল হাসান চৌধুরী এম.পি.</p>
+						<a href="#">বিস্তারিত</a>
+					</div>
+					<div class="part3">
+						<h2>সচিব, কারিগরি ও মাদরাসা শিক্ষা বিভাগ, শিক্ষা মন্ত্রণালয়</h2>
+						<img src="assets/images/aminul.png" alt="">
+						&nbsp;
+						<p>জনাব মোঃ আমিনুল ইসলাম খান ০৭ জুলাই ২০২০ খ্রি: তারিখ কারিগরি ও মাদ্র...</p>
+						<a href="#">বিস্তারিত</a>
+					</div>
+					<div class="part4">
+						<h2>চেয়ারম্যান, বাংলাদেশ কারিগরি শিক্ষা বোর্ড</h2>
+						<img src="assets/images/hos.jpg" alt="">
+						<p>ড. মোঃ মোরাদ হোসেন মোল্ল্যা</p>
+						<a href="#">বিস্তারিত</a>
+					</div>
+					<div class="part5">
+						<h2>সচিব, বাংলাদেশ কারিগরি শিক্ষা বোর্ড</h2>
+						<img src="assets/images/jahe.jpg" alt="">
+						<p>ড. মোঃ জাহেদুল হাসান</p>
+						<a href="#">বিস্তারিত</a>
+					</div>
+					<div class="part6">
+						<h2>অভ্যন্তরীণ ই-সেবা</h2>
+						<ul>
+							<li>ওয়েব মেইল</li>
+						</ul>
+						<hr>
+						<a href="#">সকল</a>
+						<h2>কেন্দ্রীয় ই-সেবা</h2>
+						<h2>গুরুত্বপূর্ণ</h2>
+						
+					</div>
+
+					<div class="part7">
+						<ul>
+							<li><a href="#">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</a></li>
+							<li><a href="#">শিক্ষা মন্ত্রণালয়</a></li>
+							<li><a href="#">আন্ত: শিক্ষা বোর্ড</a></li>
+							<li><a href="#">ebook</a></li>
+							<li><a href="#">আই-বুক</a></li>
+							<li><a href="#">মাউশি</a></li>
+							<li><a href="#">কারিগরি শিক্ষা অধিদপ্তর</a></li>
+						</ul>
+					</div>
+
+
+
+					<div class="part8">
+						<h2>জরুরি হটলাইন</h2>
+						<img src="assets/images/side-img.jpg" alt="">
+					</div>
+					<div class="part9">
+						<h2>করোনা ভাইরাস প্রতিরোধে যোগাযোগ</h2>
+						<img src="assets/images/corona_new.jpg" alt="">
+					</div>
+
+
+			
+					<div class="part6">
+						<h2>অভ্যন্তরীণ ই-সেবা</h2>
+						<ul>
+							<li>ওয়েব মেইল</li>
+						</ul>
+						<hr>
+						<a href="#">সকল</a>
+						<h2>কেন্দ্রীয় ই-সেবা</h2>
+						<h2>গুরুত্বপূর্ণ</h2>
+						
+					</div>
+
+					<div class="part7">
+						<ul>
+							<li><a href="#">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</a></li>
+							<li><a href="#">শিক্ষা মন্ত্রণালয়</a></li>
+							<li><a href="#">আন্ত: শিক্ষা বোর্ড</a></li>
+							<li><a href="#">ebook</a></li>
+							<li><a href="#">আই-বুক</a></li>
+							<li><a href="#">মাউশি</a></li>
+							<li><a href="#">কারিগরি শিক্ষা অধিদপ্তর</a></li>
+						</ul>
+					</div>
+
+
+
+					<div class="part8">
+						<h2>জরুরি হটলাইন</h2>
+						<img src="assets/images/side-img.jpg" alt="">
+					</div>
+					<div class="part9">
+						<h2>করোনা ভাইরাস প্রতিরোধে যোগাযোগ</h2>
+						<img src="assets/images/corona_new.jpg" alt="">
+					</div>
+
+				</div>
+			</aside>
+
+
+
+
+
+			<!-- footer area start here -->
+
+
+
+
+
+
+			<footer>
+				<div class="footer-area">
+					<!-- <img src="assets/images/footer2.png" alt=""> -->
+				</div>
+			</footer>
+		</div>
+
+
+	</div>
+</body>
+</html>
